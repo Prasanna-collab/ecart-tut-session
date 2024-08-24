@@ -25,7 +25,7 @@ const ListOfProducts = () => {
   };
 
   return (
-    <section className="px-5 mx-auto py-5 md:px-10 md:py-10">
+    <section className="px-5 mx-auto py-5 md:px-10 md:py-10 2xl:container">
       <header>
         <h1 className="text-2xl text-gray-400 h-16 font-medium  mx-auto">
           My Products
