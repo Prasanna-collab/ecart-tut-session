@@ -1,13 +1,16 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Page-1" id="Ku6745UNkFB-TnkCbQqL">
-    <mxGraphModel dx="2465" dy="1957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2017" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="tr7LFi16W53LxMLTbicw-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2" target="tr7LFi16W53LxMLTbicw-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A6AOqN8jmh0lsGBE-ifx-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="A6AOqN8jmh0lsGBE-ifx-14">
+        <mxCell id="A6AOqN8jmh0lsGBE-ifx-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2" target="A6AOqN8jmh0lsGBE-ifx-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VJQgaaneuWBpmhh7TJtH-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="VJQgaaneuWBpmhh7TJtH-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2" value="Listing out All products&#xa;&#xa;map()" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
@@ -61,8 +64,11 @@
         <mxCell id="tr7LFi16W53LxMLTbicw-24" value="Listing the items in the cart" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="270" y="113" width="167" height="203" as="geometry" />
         </mxCell>
-        <mxCell id="A6AOqN8jmh0lsGBE-ifx-14" value="Single product&#xa;&#xa;map()" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="A6AOqN8jmh0lsGBE-ifx-14" value="Single product&#xa;&#xa;map()" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="4.5" y="100" width="210" height="203" as="geometry" />
+        </mxCell>
+        <mxCell id="VJQgaaneuWBpmhh7TJtH-14" value="Search Filter Behaviour" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-299" y="-170" width="219" height="203" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

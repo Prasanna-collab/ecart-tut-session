@@ -7,16 +7,19 @@ import {
 import ListOfProducts from "./components/ListOfProducts";
 import SingleProduct from "./components/SingleProduct";
 import Home from "./components/Home";
+import CartContextProvider from "./context/CartContextProvider";
 
 const App = () => {
   return (
-    <Router>
-      <Switch>
-        <Route path="/" element={<Home />} />
-        <Route path="/all-products" element={<ListOfProducts />} />
-        <Route path="/product/:id" element={<SingleProduct />} />
-      </Switch>
-    </Router>
+    <CartContextProvider>
+      <Router>
+        <Switch>
+          <Route path="/" element={<Home />} />
+          <Route path="/all-products" element={<ListOfProducts />} />
+          <Route path="/product/:id" element={<SingleProduct />} />
+        </Switch>
+      </Router>
+    </CartContextProvider>
   );
 };
 
