@@ -12,7 +12,7 @@ const ListOfProducts = () => {
 
   const handleFetchProducts = async () => {
     // it is promise function, (it will return us data)or (it will return us error),
-    const data = await fetch(api, {
+    const data = await fetch(api +"?limit=10&skip=0&select=title,price,images,rating,description,reviews,category", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -21,7 +21,7 @@ const ListOfProducts = () => {
     //  to convert the response into json format
     const response = await data.json();
     // updating the state using setProducts
-    setProducts(response);
+    setProducts(response.products);
   };
 
   return (

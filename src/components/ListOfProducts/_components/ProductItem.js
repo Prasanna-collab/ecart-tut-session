@@ -6,16 +6,16 @@ const ProductItem = ({ product }) => {
     <>
       <div className=" relative border rounded-xl hover:scale-105 hover:shadow-2xl h-fit min-h-40">
         <img
-          src={product.product_image}
-          alt={product.product_name}
-          className="flex flex-col h-3/4 w-full rounded-tr-xl rounded-tl-xl mx-0 my-0"
+          src={product.images[0]}
+          alt={product.title}
+          className="flex flex-col h-32 object-contain bg-gray-100 w-full rounded-tr-xl rounded-tl-xl mx-0 my-0"
         />
         <div className="space-y-4 my-4 group">
           <h1 className="text-center leading-normal  text-lg font-semibold line-clamp-2">
-            {product.product_name}
+            {product.title}
           </h1>
           <p className="text-center font-medium line-clamp-2">
-            ${product.product_price}
+            ${product.price}
           </p>
           <div className="absolute bottom-0 right-0">
             <Link to={`/product/${product.id}`}>

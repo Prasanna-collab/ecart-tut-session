@@ -17,7 +17,7 @@ const ListOfCartItems = () => {
     .filter((item) => item.id !== "")
     .reduce(
       (total, item) =>
-        total + parseInt(item.product_price) * parseInt(item.product_quantity),
+        total + parseInt(item.price) * parseInt(item.quantity),
       0
     );
   return (
@@ -47,25 +47,25 @@ const ListOfCartItems = () => {
                     <div className="flex justify-start items-start gap-4 p-2">
                       <div>
                         <img
-                          src={item.product_image}
-                          alt={item.product_name}
+                          src={item.images[0]}
+                          alt={item.title}
                           className="h-32 w-32 rounded-lg"
                         />
                       </div>
                       <div className="flex flex-col">
                         <h4 className="text-lg font-medium text-black ">
                           {" "}
-                          {item.product_name}
+                          {item.title}
                         </h4>
-                        <p>${item.product_price}</p>
+                        <p>${item.price}</p>
                         <div>
                           <button
-                            disabled={item.product_quantity === 1}
+                            disabled={item.quantity === 1}
                             onClick={() => handleDecreaseQuantity(item.id)}
                           >
                             -
                           </button>
-                          <span>{item.product_quantity}</span>
+                          <span>{item.quantity}</span>
                           <button
                             onClick={() => handleIncreaseQuantity(item.id)}
                           >
@@ -74,8 +74,8 @@ const ListOfCartItems = () => {
                         </div>
                         <div>
                           <p className="text-red-500">
-                            {parseInt(item.product_price) *
-                              item.product_quantity}
+                            {parseInt(item.price) *
+                              item.quantity}
                           </p>
                         </div>
                       </div>
