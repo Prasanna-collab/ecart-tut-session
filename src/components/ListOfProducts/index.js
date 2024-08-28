@@ -25,9 +25,9 @@ const ListOfProducts = () => {
   };
 
   return (
-    <section className="px-5 mx-auto py-5 md:px-10 md:py-10 2xl:container">
+    <section className=" bg-gradient-to-r from-gray-50 via-gray-300 to-gray-100 font-poppins px-5 mx-auto py-5 md:px-10 md:py-10 2xl:container poppins-regular">
       <header>
-        <h1 className="text-2xl text-gray-400 h-16 font-medium  mx-auto">
+        <h1 className="text-xl text-gray-400 h-16 font-medium mx-auto">
           My Products
         </h1>
       </header>
