@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Page-1" id="Ku6745UNkFB-TnkCbQqL">
-    <mxGraphModel dx="2017" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1805" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,10 +10,10 @@
         <mxCell id="A6AOqN8jmh0lsGBE-ifx-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2" target="A6AOqN8jmh0lsGBE-ifx-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VJQgaaneuWBpmhh7TJtH-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="VJQgaaneuWBpmhh7TJtH-14">
+        <mxCell id="VJQgaaneuWBpmhh7TJtH-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2" target="VJQgaaneuWBpmhh7TJtH-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2" value="Listing out All products&#xa;&#xa;map()" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="2" value="Listing out All products&#xa;&#xa;map()&#xa;&#xa;all-products will be there." style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry y="-170" width="219" height="203" as="geometry" />
         </mxCell>
         <mxCell id="tr7LFi16W53LxMLTbicw-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3" target="tr7LFi16W53LxMLTbicw-24" edge="1">
@@ -22,14 +22,14 @@
         <mxCell id="3" value="Add Products to Cart&#xa;&#xa;&#xa;push() or shift()&#xa;" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="270" y="-170" width="167" height="203" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Update Products in the Cart or Updating the Cart&#xa;&#xa;&#xa;find(), filter(),push()" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="4" value="Update Product/Update Products in the Cart or Updating the Cart&#xa;&#xa;&#xa;find(), filter(),push()" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="486" y="-170" width="145" height="203" as="geometry" />
         </mxCell>
         <mxCell id="tr7LFi16W53LxMLTbicw-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5" target="tr7LFi16W53LxMLTbicw-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5" value="Delete items in the cart&#xa;&#xa;pop() or unshift()" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="681" y="-170" width="163" height="203" as="geometry" />
+          <mxGeometry x="687" y="-170" width="163" height="203" as="geometry" />
         </mxCell>
         <mxCell id="6" value="Deploy App into Netlify&#xa;&#xa;github + git&#xa;ci/cd " style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="894" y="-165" width="142" height="193" as="geometry" />
@@ -64,11 +64,17 @@
         <mxCell id="tr7LFi16W53LxMLTbicw-24" value="Listing the items in the cart" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="270" y="113" width="167" height="203" as="geometry" />
         </mxCell>
-        <mxCell id="A6AOqN8jmh0lsGBE-ifx-14" value="Single product&#xa;&#xa;map()" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="A6AOqN8jmh0lsGBE-ifx-14" value="Single product&#xa;&#xa;map()&#xa;&#xa;need =&gt; user needs to know what reviews, description.&#xa;&#xa;Add to Cart =&gt; after analysing quality of product, colors, he may choose or he/she may not" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="4.5" y="100" width="210" height="203" as="geometry" />
         </mxCell>
-        <mxCell id="VJQgaaneuWBpmhh7TJtH-14" value="Search Filter Behaviour" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="VJQgaaneuWBpmhh7TJtH-14" value="Search Filter Behaviour" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-299" y="-170" width="219" height="203" as="geometry" />
+        </mxCell>
+        <mxCell id="LWbzUpgjG89bmwp4ZieC-14" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="180" y="120" as="sourcePoint" />
+            <mxPoint x="280" y="20" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

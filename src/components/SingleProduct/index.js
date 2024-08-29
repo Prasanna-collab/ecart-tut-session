@@ -9,6 +9,7 @@ const SingleProduct = () => {
   const params = useParams();
   const { id } = params;
   const [product, setProduct] = useState({});
+  
   const { setShowModal, cartItems, setCartItems } = useContext(CartContext);
 
   useEffect(() => {

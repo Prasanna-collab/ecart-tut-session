@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const ProductItem = ({ product }) => {
+
+  
   return (
     <div className="bg-white group font-poppins relative border border-gray-200 rounded-xl hover:scale-105 hover:shadow-xl transition-transform duration-300 h-fit min-h-44 p-4">
       <img
